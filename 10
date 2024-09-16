@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script>
+    var degrau = parseFloat(prompt("digite a altura do degrau"));
+var altura = parseFloat(prompt("digite a altura que deseja subir"));
+var calculo = altura/degrau;
+document.write(" Para subrir "+ altura + "metros, você precisa subir "+ calculo +"degraus.");
+    </script>
+  </body>
